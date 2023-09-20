@@ -22,6 +22,8 @@ To perform PCA matrix summation with a 2D grid and 2D blocks and adapting it to 
 Developed By: EZHILMATHI.R
 Reg.No:212221230026
 
+
+```py
 #include "common.h" #include <cuda_runtime.h> #include <stdio.h>
 
 /*
@@ -170,6 +172,7 @@ CHECK(cudaDeviceReset());
 return (0);
 }
 
+```
 ## Output:
 
 ![image](https://github.com/ezhilmathir/PCA-Matrix-summation-with-a-2D-grid-and-2D-blocks.-Adapt-it-to-integer-matrix-addition.-/assets/94210147/072f44fb-f4e9-400f-b7ad-67dce1aaec71)
